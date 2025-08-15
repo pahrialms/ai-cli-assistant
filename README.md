@@ -16,11 +16,11 @@ You can pipe logs, configs, or questions directly into an OpenAI-compatible API 
 
 ## 📥 Installation
 
-1. Download the prebuilt binary `ai` from [Releases](./ai).  
+1. Download the prebuilt binary `ai`.  
 2. Copy it into your local bin directory:
    ```bash
    mkdir -p ~/.local/bin
-   cp ai ~/.local/bin/
+   cp ai-cli-assistant/bin/ai ~/.local/bin/
    chmod +x ~/.local/bin/ai
 
 
