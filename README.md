@@ -1,10 +1,3 @@
-Got it 👍 — kalau binary `ai` sudah kamu compile dan tinggal dipakai, maka `README.md`-nya cukup fokus ke **cara install binary** ke `$HOME/.local/bin` (atau `/usr/local/bin`), lalu cara konfigurasi dan penggunaan.
-
-Berikut revisi `README.md` sesuai skenario itu:
-
----
-
-````markdown
 # AI Command-Line Assistant (Binary Release)
 
 A lightweight **terminal AI assistant** for Ubuntu/Linux.  
@@ -29,7 +22,7 @@ You can pipe logs, configs, or questions directly into an OpenAI-compatible API 
    mkdir -p ~/.local/bin
    cp ai ~/.local/bin/
    chmod +x ~/.local/bin/ai
-````
+
 
 3. Ensure `~/.local/bin` is in your `PATH`:
 
@@ -49,12 +42,12 @@ Set the following environment variables (add them to `~/.bashrc` or `~/.zshrc`):
 ```bash
 # DeepSeek example
 export AI_API_KEY="dsksk-XXXX"
-export AI_API_BASE="https://api.deepseek.com/v1"
-export AI_MODEL="deepseek-chat"
+export AI_API_BASE="https://api.deepseek.com"
+export AI_MODEL="deepseek-reasoner"
 
 # OpenAI example
 # export AI_API_KEY="sk-XXXX"
-# export AI_API_BASE="https://api.openai.com/v1"
+# export AI_API_BASE="https://api.openai.com"
 # export AI_MODEL="gpt-4o-mini"
 ```
 
