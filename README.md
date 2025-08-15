@@ -1,6 +1,6 @@
 # AI Command-Line Assistant (Binary Release)
 
-A lightweight **terminal AI assistant** for Ubuntu/Linux.  
+A lightweight **terminal AI assistant** for Linux/Mac.  
 You can pipe logs, configs, or questions directly into an OpenAI-compatible API (e.g. DeepSeek, OpenAI).  
 
 ---
